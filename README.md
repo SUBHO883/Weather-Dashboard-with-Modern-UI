@@ -33,4 +33,6 @@ Built with clean and stylish **UI/UX design**, including dark/light themes, glas
 
 1. Clone the repository:
    ```bash
+   https://github.com/SUBHO883/Weather-Dashboard-with-Modern-UI.git
    
+
