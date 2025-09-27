@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WeatherPro</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <i class="fas fa-cloud-sun"></i>
+        <h1>WeatherPro</h1>
+      </div>
+      <div class="search-box">
+        <input type="text" id="cityInput" placeholder="Enter city e.g. London"/>
+        <button id="searchBtn" type="button" title="Search" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></button>
+      </div>
+    </header>
+
+    <main>
+      <section id="currentWeather" class="current-weather">
+        <div class="loading"><div class="spinner"></div></div>
+      </section>
+
+      <section class="forecast">
+        <h2>5-Day Forecast</h2>
+        <div id="forecastData" class="forecast-cards">
+          <div class="loading"><div class="spinner"></div></div>
+        </div>
+      </section>
+
+      <div id="errorMsg" class="error"></div>
+    </main>
+  </div>
+
+  <div class="theme-toggle" id="themeToggle"><i class="fas fa-moon"></i></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
