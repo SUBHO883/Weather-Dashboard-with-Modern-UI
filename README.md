@@ -1,6 +1,3 @@
-﻿# Weather-Dashboard-with-Modern-UI
-
-
 # 🌦 Weather Dashboard with Modern UI
 
 A modern, responsive **Weather Dashboard** that displays **current weather** and a **5-day forecast** using the [OpenWeather API](https://openweathermap.org/api).  
@@ -35,4 +32,5 @@ Built with clean and stylish **UI/UX design**, including dark/light themes, glas
    ```bash
    https://github.com/SUBHO883/Weather-Dashboard-with-Modern-UI.git
    
+
 
